@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.apple.scrolldemo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".center.ItemCenterActivity" android:label="item居中"></activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".nestedscroll.SimpleRecvActivity" />
+        <activity android:name=".item_decoration.activities.DecorationGroupActivity" />
+        <activity android:name=".confict.Rv_contains_rvActivity" />
+        <activity
+            android:name=".refresh.RefreshListActivity"
+            android:label="刷新" />
+        <activity
+            android:name=".fixed.review.RecycleFixedActivity"
+            android:label="头部固定回顾" />
+        <activity android:name=".recycle.ding.DingActivity" />
+        <activity android:name=".confict.RecvActivity" />
+        <activity
+            android:name=".confict.NormalNestedActivity"
+            android:label="普通嵌套" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BasicScrollActivity"
+            android:label="基础滑动标题" />
+        <activity
+            android:name=".ScrollAlphaActivity"
+            android:theme="@style/chengjin" />
+        <activity
+            android:name=".LikeWChatActivity"
+            android:theme="@style/chengjin" />
+        <activity
+            android:name=".fixed.StickyCrimActivity"
+            android:theme="@style/crim" />
+        <activity
+            android:name=".fixed.StickyScrollActivity"
+            android:theme="@style/crim" />
+        <activity android:name=".fixed.StickyNestedActivity" />
+        <activity
+            android:name=".confict.Nsv_Confict_Rv_Activity"
+            android:label="解决滑动冲突demo" />
+        <activity
+            android:name=".fixed.FixedNormalActivity"
+            android:theme="@style/noTitle" />
+        <activity
+            android:name=".behavior.BehaviorOneActivity"
+            android:label="behavior案例1" />
+        <activity
+            android:name=".behavior.BehaviorTitleActivity"
+            android:theme="@style/crim" />
+        <activity android:name=".behavior.BehaviorMoveActivity" />
+        <activity
+            android:name=".recycle.MulRvOneActivity"
+            android:label="多布局仿聊天" />
+        <activity
+            android:name=".recycle.city.MulCityActivity"
+            android:label="多布局城市选择" />
+        <activity
+            android:name=".AppBarScrollActivity"
+            android:theme="@style/noTitle" />
+        <activity
+            android:name=".recycle.WebchatListActivity"
+            android:label="微信好友列表" />
+        <activity android:name=".recycle.grid.GridTextActivity" />
+        <activity
+            android:name=".base.ScrollShowActivity"
+            android:label="滑动展示" />
+        <activity android:name=".base.MoveActivity" />
+        <activity
+            android:name=".LocationActivity"
+            android:theme="@style/noTitle" />
+    </application>
+
+</manifest>
